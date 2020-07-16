@@ -1,0 +1,12 @@
+/* Base Styles--------------------*/
+* {
+    box-sizing: border-box;
+}
+/* Web Fonts--------------------*/
+p {
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    font-family: 'Cinzel Decorative', cursive;   
+}
