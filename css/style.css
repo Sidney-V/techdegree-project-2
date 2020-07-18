@@ -2,11 +2,112 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: #EDEEEF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    height: 1150px;
+    width: 320px;
+    border: black solid 1px;
+
+}
+
+
 /* Web Fonts--------------------*/
 p {
     font-family: 'Indie Flower', cursive;
 }
 
-h2 {
+h1, h2, h3, h4, li {
     font-family: 'Cinzel Decorative', cursive;   
+}
+
+/* Navigation Styles and Display--------------------*/
+li a {
+    text-decoration: none;
+    border: solid #F4F6F8 1px; 
+    background-color: #F4F6F8;
+    border-radius: 3px;
+    display: block; 
+    padding: 20px;
+    width: auto;
+    margin-bottom: 7px;
+    color: black;
+    }
+
+li a:hover {
+        color: #7C7D7F;
+}    
+
+nav:hover {
+    color: black;
+}    
+    
+ 
+ul {
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}    
+
+nav ul { 
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.name {
+    font-size: 1.5rem; /* 16*2=32px */
+    margin-bottom: 2em;
+}
+
+/* Header Styles--------------------*/
+
+#tag {
+    margin: 70px auto;
+    border: solid #E1E2E3 2px;
+    width: 65%;
+    display: block;
+
+}
+
+/* Main Styles--------------------*/
+
+.proto-img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+p,
+h2,
+h1 {
+    text-align: center;
+
+}
+
+h2, h1 {
+    font-size: medium;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+/* Float Clearfix--------------------*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
