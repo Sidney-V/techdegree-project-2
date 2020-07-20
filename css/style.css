@@ -12,7 +12,6 @@ body {
 }
 
 .total {
-    height: 1150px;
     width: 320px;
     border: black solid 1px;
 
@@ -44,10 +43,6 @@ li a {
 li a:hover {
         color: #7C7D7F;
 }    
-
-nav:hover {
-    color: black;
-}    
     
  
 ul {
@@ -74,8 +69,8 @@ nav ul {
     border: solid #E1E2E3 2px;
     width: 65%;
     display: block;
-
 }
+
 
 /* Main Styles--------------------*/
 
@@ -87,7 +82,9 @@ nav ul {
 
 p,
 h2,
-h1 {
+h1,
+h4,
+address {
     text-align: center;
 
 }
@@ -96,14 +93,53 @@ h2, h1 {
     font-size: medium;
 }
 
-p {
-    padding-left: 10px;
-    padding-right: 10px;
+#calc {
+    padding-bottom: 75px;
+}
+
+h2 {
+    padding-top: 25px;
+    padding-bottom: 5px;
 }
 
 
+#contact {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.main-p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    
+}
+
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+strong {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.back-to-top {
+    float: right;
+    text-decoration: none;
+    color: black;    
+}
+
+.back-to-top:hover,
+.email:hover {
+    color: #7C7D7F;
+}
 
 
+.main{
+    background-color: #F4F6F8;
+}
 /* Float Clearfix--------------------*/
 
 .clearfix:after {
