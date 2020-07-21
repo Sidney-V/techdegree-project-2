@@ -12,7 +12,7 @@ body {
 }
 
 .total {
-    width: 320px;
+    width: 768px;
     border: black solid 1px;
 
 }
@@ -60,15 +60,21 @@ nav ul {
 .name {
     font-size: 1.5rem; /* 16*2=32px */
     margin-bottom: 2em;
+    padding-top: 20px;
 }
 
 /* Header Styles--------------------*/
 
 #tag {
-    margin: 70px auto;
+    margin: 30px auto;
     border: solid #E1E2E3 2px;
     width: 65%;
     display: block;
+}
+
+#tag-p {
+    padding-bottom: 28px;
+    
 }
 
 
@@ -86,6 +92,8 @@ h1,
 h4,
 address {
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -137,9 +145,72 @@ strong {
 }
 
 
-.main{
+main{
     background-color: #F4F6F8;
 }
+
+
+/* Media Query--------------------*/
+
+@media (min-width: 768px) {
+    nav, ul, li {
+        display: inline-block;
+    }
+
+    .name {
+        display: block;
+    }
+
+    li a {
+        border: none;
+        background-color: #EDEEEF;
+    }
+
+    #tag {
+        float: right;
+        width: 40%;
+        margin: 0;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    #tag-p {
+        font-size: 1.5rem;
+    }
+    
+   .primary {
+       float: left;
+       width: 50%;
+   }
+  
+  .secondary {
+      float: right;
+      width: 50%;
+  }
+
+  
+
+    .third {
+        float: left;
+        width:50%;
+    }
+ 
+   main {
+       min-height: calc(100vh - -90px);
+
+   }
+
+   .proto-img {
+       width: 375px;
+   }
+}
+
+
+
+
+
+
+
 /* Float Clearfix--------------------*/
 
 .clearfix:after {
