@@ -179,21 +179,19 @@ main{
     }
     
    .primary {
-       float: left;
+       float: right;
        width: 50%;
+       min-height: 377px;
+     
    }
   
   .secondary {
-      float: right;
+    float: left;
       width: 50%;
+     
   }
 
   
-
-    .third {
-        float: left;
-        width:50%;
-    }
  
    main {
        min-height: calc(100vh - -90px);
